@@ -7,6 +7,7 @@ An arithmetic improvement game.
 <!--toc:start-->
   - [General Information](#general-information)
   - [Screenshots](#screenshots)
+  - [License](#license)
 <!--toc:end-->
 
 ## General Information
