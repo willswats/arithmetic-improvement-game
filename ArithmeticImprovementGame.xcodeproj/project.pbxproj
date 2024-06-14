@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		923F4C1327E4C23300931AEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F4C1227E4C23300931AEA /* AppDelegate.swift */; };
+		923F4C1527E4C23300931AEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F4C1427E4C23300931AEA /* SceneDelegate.swift */; };
+		923F4C1727E4C23300931AEA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F4C1627E4C23300931AEA /* GameViewController.swift */; };
+		923F4C1A27E4C23300931AEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923F4C1827E4C23300931AEA /* Main.storyboard */; };
+		923F4C1C27E4C23300931AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923F4C1B27E4C23300931AEA /* Assets.xcassets */; };
+		923F4C1F27E4C23300931AEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923F4C1D27E4C23300931AEA /* LaunchScreen.storyboard */; };
+		923F4C2A27E4C23300931AEA /* ArithmeticImprovementGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F4C2927E4C23300931AEA /* ArithmeticImprovementGameTests.swift */; };
+		923F4C3527E4C23300931AEA /* ArithmeticImprovementGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F4C3427E4C23300931AEA /* ArithmeticImprovementGameUITests.swift */; };
+		928899F828005EC400719D10 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928899F728005EC400719D10 /* AVFoundation.framework */; };
+		92889A082800712100719D10 /* HorseWhinny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92889A0728006B9400719D10 /* HorseWhinny.mp3 */; };
+		92889A092800712400719D10 /* HorseSnort.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92889A0628006B9300719D10 /* HorseSnort.mp3 */; };
+		92CCA12F27F72D5000A6659F /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CCA12E27F72D5000A6659F /* SelectViewController.swift */; };
+		92CCA13127F72DBC00A6659F /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CCA13027F72DBC00A6659F /* ScoreViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		923F4C2627E4C23300931AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923F4C0727E4C23300931AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 923F4C0E27E4C23300931AEA;
+			remoteInfo = ArithmeticImprovementGame;
+		};
+		923F4C3127E4C23300931AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923F4C0727E4C23300931AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 923F4C0E27E4C23300931AEA;
+			remoteInfo = ArithmeticImprovementGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		923F4C0F27E4C23300931AEA /* ArithmeticImprovementGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArithmeticImprovementGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		923F4C1227E4C23300931AEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		923F4C1427E4C23300931AEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		923F4C1627E4C23300931AEA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		923F4C1927E4C23300931AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		923F4C1B27E4C23300931AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		923F4C1E27E4C23300931AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		923F4C2027E4C23300931AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923F4C2527E4C23300931AEA /* ArithmeticImprovementGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArithmeticImprovementGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		923F4C2927E4C23300931AEA /* ArithmeticImprovementGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticImprovementGameTests.swift; sourceTree = "<group>"; };
+		923F4C2B27E4C23300931AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923F4C3027E4C23300931AEA /* ArithmeticImprovementGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArithmeticImprovementGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		923F4C3427E4C23300931AEA /* ArithmeticImprovementGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticImprovementGameUITests.swift; sourceTree = "<group>"; };
+		923F4C3627E4C23300931AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928899F728005EC400719D10 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		92889A0628006B9300719D10 /* HorseSnort.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HorseSnort.mp3; sourceTree = "<group>"; };
+		92889A0728006B9400719D10 /* HorseWhinny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HorseWhinny.mp3; sourceTree = "<group>"; };
+		92CCA12E27F72D5000A6659F /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		92CCA13027F72DBC00A6659F /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		923F4C0C27E4C23300931AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928899F828005EC400719D10 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923F4C2227E4C23300931AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923F4C2D27E4C23300931AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		923F4C0627E4C23300931AEA = {
+			isa = PBXGroup;
+			children = (
+				92889A0728006B9400719D10 /* HorseWhinny.mp3 */,
+				92889A0628006B9300719D10 /* HorseSnort.mp3 */,
+				923F4C1127E4C23300931AEA /* ArithmeticImprovementGame */,
+				923F4C2827E4C23300931AEA /* ArithmeticImprovementGameTests */,
+				923F4C3327E4C23300931AEA /* ArithmeticImprovementGameUITests */,
+				923F4C1027E4C23300931AEA /* Products */,
+				928899F628005EC400719D10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		923F4C1027E4C23300931AEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				923F4C0F27E4C23300931AEA /* ArithmeticImprovementGame.app */,
+				923F4C2527E4C23300931AEA /* ArithmeticImprovementGameTests.xctest */,
+				923F4C3027E4C23300931AEA /* ArithmeticImprovementGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		923F4C1127E4C23300931AEA /* ArithmeticImprovementGame */ = {
+			isa = PBXGroup;
+			children = (
+				923F4C1227E4C23300931AEA /* AppDelegate.swift */,
+				923F4C1427E4C23300931AEA /* SceneDelegate.swift */,
+				923F4C1627E4C23300931AEA /* GameViewController.swift */,
+				923F4C1827E4C23300931AEA /* Main.storyboard */,
+				92CCA13027F72DBC00A6659F /* ScoreViewController.swift */,
+				92CCA12E27F72D5000A6659F /* SelectViewController.swift */,
+				923F4C1B27E4C23300931AEA /* Assets.xcassets */,
+				923F4C1D27E4C23300931AEA /* LaunchScreen.storyboard */,
+				923F4C2027E4C23300931AEA /* Info.plist */,
+			);
+			path = ArithmeticImprovementGame;
+			sourceTree = "<group>";
+		};
+		923F4C2827E4C23300931AEA /* ArithmeticImprovementGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				923F4C2927E4C23300931AEA /* ArithmeticImprovementGameTests.swift */,
+				923F4C2B27E4C23300931AEA /* Info.plist */,
+			);
+			path = ArithmeticImprovementGameTests;
+			sourceTree = "<group>";
+		};
+		923F4C3327E4C23300931AEA /* ArithmeticImprovementGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				923F4C3427E4C23300931AEA /* ArithmeticImprovementGameUITests.swift */,
+				923F4C3627E4C23300931AEA /* Info.plist */,
+			);
+			path = ArithmeticImprovementGameUITests;
+			sourceTree = "<group>";
+		};
+		928899F628005EC400719D10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				928899F728005EC400719D10 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		923F4C0E27E4C23300931AEA /* ArithmeticImprovementGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923F4C3927E4C23300931AEA /* Build configuration list for PBXNativeTarget "ArithmeticImprovementGame" */;
+			buildPhases = (
+				923F4C0B27E4C23300931AEA /* Sources */,
+				923F4C0C27E4C23300931AEA /* Frameworks */,
+				923F4C0D27E4C23300931AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArithmeticImprovementGame;
+			productName = ArithmeticImprovementGame;
+			productReference = 923F4C0F27E4C23300931AEA /* ArithmeticImprovementGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		923F4C2427E4C23300931AEA /* ArithmeticImprovementGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923F4C3C27E4C23300931AEA /* Build configuration list for PBXNativeTarget "ArithmeticImprovementGameTests" */;
+			buildPhases = (
+				923F4C2127E4C23300931AEA /* Sources */,
+				923F4C2227E4C23300931AEA /* Frameworks */,
+				923F4C2327E4C23300931AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				923F4C2727E4C23300931AEA /* PBXTargetDependency */,
+			);
+			name = ArithmeticImprovementGameTests;
+			productName = ArithmeticImprovementGameTests;
+			productReference = 923F4C2527E4C23300931AEA /* ArithmeticImprovementGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		923F4C2F27E4C23300931AEA /* ArithmeticImprovementGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923F4C3F27E4C23300931AEA /* Build configuration list for PBXNativeTarget "ArithmeticImprovementGameUITests" */;
+			buildPhases = (
+				923F4C2C27E4C23300931AEA /* Sources */,
+				923F4C2D27E4C23300931AEA /* Frameworks */,
+				923F4C2E27E4C23300931AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				923F4C3227E4C23300931AEA /* PBXTargetDependency */,
+			);
+			name = ArithmeticImprovementGameUITests;
+			productName = ArithmeticImprovementGameUITests;
+			productReference = 923F4C3027E4C23300931AEA /* ArithmeticImprovementGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		923F4C0727E4C23300931AEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					923F4C0E27E4C23300931AEA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					923F4C2427E4C23300931AEA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 923F4C0E27E4C23300931AEA;
+					};
+					923F4C2F27E4C23300931AEA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 923F4C0E27E4C23300931AEA;
+					};
+				};
+			};
+			buildConfigurationList = 923F4C0A27E4C23300931AEA /* Build configuration list for PBXProject "ArithmeticImprovementGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 923F4C0627E4C23300931AEA;
+			productRefGroup = 923F4C1027E4C23300931AEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				923F4C0E27E4C23300931AEA /* ArithmeticImprovementGame */,
+				923F4C2427E4C23300931AEA /* ArithmeticImprovementGameTests */,
+				923F4C2F27E4C23300931AEA /* ArithmeticImprovementGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		923F4C0D27E4C23300931AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92889A092800712400719D10 /* HorseSnort.mp3 in Resources */,
+				92889A082800712100719D10 /* HorseWhinny.mp3 in Resources */,
+				923F4C1F27E4C23300931AEA /* LaunchScreen.storyboard in Resources */,
+				923F4C1C27E4C23300931AEA /* Assets.xcassets in Resources */,
+				923F4C1A27E4C23300931AEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923F4C2327E4C23300931AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923F4C2E27E4C23300931AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		923F4C0B27E4C23300931AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CCA12F27F72D5000A6659F /* SelectViewController.swift in Sources */,
+				923F4C1727E4C23300931AEA /* GameViewController.swift in Sources */,
+				92CCA13127F72DBC00A6659F /* ScoreViewController.swift in Sources */,
+				923F4C1327E4C23300931AEA /* AppDelegate.swift in Sources */,
+				923F4C1527E4C23300931AEA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923F4C2127E4C23300931AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923F4C2A27E4C23300931AEA /* ArithmeticImprovementGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923F4C2C27E4C23300931AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923F4C3527E4C23300931AEA /* ArithmeticImprovementGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		923F4C2727E4C23300931AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 923F4C0E27E4C23300931AEA /* ArithmeticImprovementGame */;
+			targetProxy = 923F4C2627E4C23300931AEA /* PBXContainerItemProxy */;
+		};
+		923F4C3227E4C23300931AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 923F4C0E27E4C23300931AEA /* ArithmeticImprovementGame */;
+			targetProxy = 923F4C3127E4C23300931AEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		923F4C1827E4C23300931AEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923F4C1927E4C23300931AEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		923F4C1D27E4C23300931AEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923F4C1E27E4C23300931AEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		923F4C3727E4C23300931AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		923F4C3827E4C23300931AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		923F4C3A27E4C23300931AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5H2K335UGV;
+				INFOPLIST_FILE = ArithmeticImprovementGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = will.ArithmeticImprovementGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		923F4C3B27E4C23300931AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5H2K335UGV;
+				INFOPLIST_FILE = ArithmeticImprovementGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = will.ArithmeticImprovementGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		923F4C3D27E4C23300931AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArithmeticImprovementGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = will.ArithmeticImprovementGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArithmeticImprovementGame.app/ArithmeticImprovementGame";
+			};
+			name = Debug;
+		};
+		923F4C3E27E4C23300931AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArithmeticImprovementGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = will.ArithmeticImprovementGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArithmeticImprovementGame.app/ArithmeticImprovementGame";
+			};
+			name = Release;
+		};
+		923F4C4027E4C23300931AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArithmeticImprovementGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = will.ArithmeticImprovementGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArithmeticImprovementGame;
+			};
+			name = Debug;
+		};
+		923F4C4127E4C23300931AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArithmeticImprovementGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = will.ArithmeticImprovementGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArithmeticImprovementGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		923F4C0A27E4C23300931AEA /* Build configuration list for PBXProject "ArithmeticImprovementGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923F4C3727E4C23300931AEA /* Debug */,
+				923F4C3827E4C23300931AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923F4C3927E4C23300931AEA /* Build configuration list for PBXNativeTarget "ArithmeticImprovementGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923F4C3A27E4C23300931AEA /* Debug */,
+				923F4C3B27E4C23300931AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923F4C3C27E4C23300931AEA /* Build configuration list for PBXNativeTarget "ArithmeticImprovementGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923F4C3D27E4C23300931AEA /* Debug */,
+				923F4C3E27E4C23300931AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923F4C3F27E4C23300931AEA /* Build configuration list for PBXNativeTarget "ArithmeticImprovementGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923F4C4027E4C23300931AEA /* Debug */,
+				923F4C4127E4C23300931AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 923F4C0727E4C23300931AEA /* Project object */;
+}
