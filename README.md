@@ -11,4 +11,4 @@ An arithmetic improvement game.
 
 ## General Information
 
-I built this project for a College assignment using the College's Macs with Xcode.
+I built this project for a College assignment using the College's Macs, and I've been unable to edit the project since due to not owning a Mac.
